@@ -1,3 +1,3 @@
 # Digital-electronics-1.
 
-## __Labs__ 
+## _Labs_ *DE1*
