@@ -2,7 +2,7 @@
 
 ## Labs *DE1*
 
-^^Code^^
+**Code**
 
 ```
 
