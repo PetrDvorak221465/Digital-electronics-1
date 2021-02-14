@@ -18,8 +18,7 @@
 | 1 | 1 | 1 |  |
 
 
-
-**Code to Task 2.**
+**Code of Task 2.**
 ```
 architecture dataflow of gates is
 begin
@@ -31,3 +30,7 @@ begin
 end architecture dataflow;
 
 ```
+
+
+**Screenshot of waveforms of Task 2.**
+
