@@ -1,5 +1,1 @@
-#Digital Electronics
-
-##Labs
-
-##GitHub and Eda Playground
+# Digital Electronics
