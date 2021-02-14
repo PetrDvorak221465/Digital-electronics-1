@@ -31,6 +31,7 @@ end architecture dataflow;
 ```
 
 **Screenshot of waveforms of Task 2.**
-![Simulation De Morgan's laws](Images/De_Morgans_Laws_signals)
+
+![Simulation De Morgan's laws](Images/De_Morgans_Laws_signals.png)
 
 **Eda Playground https://www.edaplayground.com/x/ZbJM**
