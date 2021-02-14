@@ -12,6 +12,8 @@
 
 ![Logic function](Images/equations.png)
 
+__Nand and Nor function edited by two De Morgan's laws__
+
 **Tab to Task 2.**
 
 | **c** | **b** | **a** |
