@@ -14,7 +14,7 @@
 
 __Nand and Nor function edited by two De Morgan's laws__
 
-
+-------------------
 
 **Tab to Task 2.**
 
