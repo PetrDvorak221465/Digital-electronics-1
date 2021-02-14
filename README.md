@@ -2,4 +2,4 @@
 
 ## Labs
 
-## GitHub, Eda Playground
+## *GitHub, Eda Playground*
