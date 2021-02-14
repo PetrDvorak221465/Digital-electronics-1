@@ -3,6 +3,11 @@
 ## Labs DE1 
 
 ## 01-gates
+
+## Task 1. Submit the GitHub link to your Digital-electronics-1 repository
+
+**https://github.com/PetrDvorak221465/Digital-electronics-1**
+
 ## Task 2. Verification of De Morgan's laws of function f(c,b,a) 
 
 ![Logic function](Images/equations.png)
@@ -37,9 +42,43 @@ end architecture dataflow;
 
 ![Simulation De Morgan's laws](Images/De_Morgans_Laws_signals.png)
 
-**Eda Playground https://www.edaplayground.com/x/ZbJM**
+**Task 2. Eda Playground https://www.edaplayground.com/x/ZbJM**
 
 
 ## Task 3. Verification of Distributive laws
 
 ![Functions](Images/Distrib.png)
+
+**Tab for Task 3.**
+
+| **z** | **y** | **x** |
+| :-: | :-: | :-: |
+| 0 | 0 | 0 |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 0 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+| 1 | 1 | 1 |
+
+
+**Code of Task 3.**
+```
+architecture dataflow of gates is
+begin
+  
+  f1left_o  <= ((x_i and y_i) or (x_i and z_i));
+  f1right_o <= (x_i and (y_i or z_i));
+  f2left_o  <= (x_i or y_i) and (x_i or z_i);
+  f2right_o <= (x_i or (y_i and z_i));
+    
+end architecture dataflow;
+```
+
+**Screenshot of waveforms of Task 3.**
+
+![Simulation Distributive laws](Images/Distributive_laws.png)
+
+**Task 3. Eda Playground https://www.edaplayground.com/x/UQqF**
+
