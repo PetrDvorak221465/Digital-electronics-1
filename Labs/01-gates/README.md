@@ -38,3 +38,8 @@ end architecture dataflow;
 ![Simulation De Morgan's laws](Images/De_Morgans_Laws_signals.png)
 
 **Eda Playground https://www.edaplayground.com/x/ZbJM**
+
+
+### Task 3. Verification of Distributive laws
+
+![Functions](Images/Distrib.png)
