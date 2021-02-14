@@ -5,7 +5,7 @@
 ## 01-gates
 ### Task 2. Verification of De Morgan's laws of function f(c,b,a) 
 **Tab to Task 2.**
-```
+
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 |  |
@@ -16,7 +16,7 @@
 | 1 | 0 | 1 |  |
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
-```
+
 
 **Code to Task 2.**
 
