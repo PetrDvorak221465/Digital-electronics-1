@@ -4,7 +4,7 @@
 
 ## *01-gates*
 
-## Task 1. Submit the GitHub link to your Digital-electronics-1 repository
+## Task 1. Submit the GitHub link to my Digital-electronics-1 repository
 
 **https://github.com/PetrDvorak221465/Digital-electronics-1**
 
