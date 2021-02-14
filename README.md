@@ -30,7 +30,7 @@ begin
 end architecture dataflow;
 
 ```
-
+**Adress of the rest of the code https://www.edaplayground.com/x/ZbJM**
 
 **Screenshot of waveforms of Task 2.**
 
