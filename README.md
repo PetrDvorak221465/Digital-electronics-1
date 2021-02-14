@@ -20,9 +20,7 @@
 
 
 **Code to Task 2.**
-
 ```
-
 architecture dataflow of gates is
 begin
     f_o     <= ((not b_i) and a_i) or ((not c_i) and (not b_i)) ;
@@ -31,6 +29,5 @@ begin
     
 
 end architecture dataflow;
-
 
 ```
