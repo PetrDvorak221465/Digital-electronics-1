@@ -8,6 +8,8 @@
 
 **https://github.com/PetrDvorak221465/Digital-electronics-1**
 
+
+
 ## Task 2. Verification of De Morgan's laws of function f(c,b,a) 
 
 ![Logic function](Images/equations.png)
