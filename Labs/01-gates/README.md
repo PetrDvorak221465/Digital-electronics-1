@@ -53,6 +53,9 @@ end architecture dataflow;
 
 ![Functions](Images/Distrib.png)
 
+
+---------------
+
 **Tab for Task 3.**
 
 | **z** | **y** | **x** |
