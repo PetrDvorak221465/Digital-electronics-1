@@ -8,13 +8,13 @@
 
 **https://github.com/PetrDvorak221465/Digital-electronics-1**
 
-
-
 ## Task 2. Verification of De Morgan's laws of function f(c,b,a) 
 
 ![Logic function](Images/equations.png)
 
 __Nand and Nor function edited by two De Morgan's laws__
+
+
 
 **Tab to Task 2.**
 
