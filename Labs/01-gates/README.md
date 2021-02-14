@@ -3,7 +3,7 @@
 ## Labs DE1 
 
 ## 01-gates
-### Task 2. Verification of De Morgan's laws of function f(c,b,a) 
+## Task 2. Verification of De Morgan's laws of function f(c,b,a) 
 
 ![Logic function](Images/equations.png)
 
@@ -40,6 +40,6 @@ end architecture dataflow;
 **Eda Playground https://www.edaplayground.com/x/ZbJM**
 
 
-### Task 3. Verification of Distributive laws
+## Task 3. Verification of Distributive laws
 
 ![Functions](Images/Distrib.png)
