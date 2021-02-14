@@ -1,8 +1,8 @@
-# Digital-electronics-1.
+# *Digital-electronics-1.*
 
-## Labs DE1 
+## *Labs DE1* 
 
-## 01-gates
+## *01-gates*
 
 ## Task 1. Submit the GitHub link to your Digital-electronics-1 repository
 
