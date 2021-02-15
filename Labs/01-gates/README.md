@@ -15,6 +15,7 @@
 __Nand and Nor function edited by two De Morgan's laws__
 
 -------------------
+-------------------
 
 **Tab to Task 2.**
 
@@ -74,6 +75,8 @@ end architecture dataflow;
 
 
 **Code of Task 3.**
+*Parameters f1 and f2 means first or second distibutive function.*
+*Parameters right and left means a part of a function we are working with at the moment.*
 ```
 architecture dataflow of gates is
 begin
