@@ -25,11 +25,15 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
- Canonical SoP (Sum of Products) and PoS (Product of Sums) forms for "equals" and "less than" functions:
- SoP for equals means Sum of Product of collumn "B equals A" on the spots that contains number "1"
- 
- ![SoP_function](Images/equal_SoP.png)
- 
- PoS for less means Product of Sums of collumn "B is less than A" on the spots that contains number "0"
- 
- ![PoS_funtion](Images/less_PoS.png)
+
+## Task 2. A 2-bit comparator.
+
+### Karnaugh maps for all three functions
+
+![Karnaugh_maps](Images/1.png)
+
+### Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function.
+
+![Simplified_SoP_greater_than](Images/2.png)
+
+![Simplified_PoS_less_than](Images/3.png)
