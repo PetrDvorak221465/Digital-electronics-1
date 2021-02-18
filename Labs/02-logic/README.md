@@ -59,7 +59,7 @@ Listing of VHDL stimulus process from testbench file (Code 2.)
 
 Listing of simulator console output, i.e. with one reported error (Code 3.)
 
-In All codes is syntax highlighted using asterisks. 
+In All codes is syntax highlighted using asterisks. Intensional mistake is commented, it is the third value. 
 
 **Code 1.**
 ```
@@ -68,12 +68,11 @@ In All codes is syntax highlighted using asterisks.
  
 	B_greater_A_o <= '1' when (b_i > a_i) else '0';
 	B_equals_A_o  <= '1' when (b_i = a_i) else '0';
-    B_less_A_o    <= '1' when (b_i < a_i) else '0';
+   	B_less_A_o    <= '1' when (b_i < a_i) else '0';
 	
 *end architecture* Behavioral;
 
 ```
-
 **Code 2.**
 ```
   --------------------------------------------------------------------
