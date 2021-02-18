@@ -54,7 +54,9 @@ Link for example of 2bit comparator Eda Playground : https://www.edaplayground.c
 ## Task 3. A 4-bit binary comparator
 
 Listing of VHDL architecture from design file (Code 1.)
+
 Listing of VHDL stimulus process from testbench file (Code 2.)
+
 Listing of simulator console output, i.e. with one reported error (Code 3.)
 
 In All codes is syntax highlighted using asterisks. 
