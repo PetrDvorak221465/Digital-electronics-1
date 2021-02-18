@@ -33,10 +33,10 @@
 ![Karnaugh_maps](Images/1.png)
 
 
-
-
+--------------
 
 --------------
+
 --------------
 
 ### Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function.
