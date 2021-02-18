@@ -39,6 +39,10 @@
 
 --------------
 
+--------------
+
+--------------
+
 ### Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function.
 
 ![Simplified_SoP_greater_than](Images/2.png)
