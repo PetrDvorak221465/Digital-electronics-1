@@ -48,7 +48,9 @@
 
 Link for example of 2bit comparator Eda Playground : https://www.edaplayground.com/x/JN4t
 
-
+--------------
+--------------
+--------------
 ## Task 3. A 4-bit binary comparator
 
 Listing of VHDL architecture from design file (Code 1.)
