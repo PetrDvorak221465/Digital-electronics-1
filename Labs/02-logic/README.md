@@ -81,8 +81,7 @@ In All codes is syntax highlighted using asterisks.
     *begin*
         -- Report a note at the begining of stimulus process
         *report* "Stimulus process started" *severity* note;
-
-        -- First test values
+	-- First test values
         s_b <= "0000"; s_a <= "0000"; wait for 100 ns;
         -- Expected output
         *assert* ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
