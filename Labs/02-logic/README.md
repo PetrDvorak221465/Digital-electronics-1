@@ -75,9 +75,7 @@ In All codes is syntax highlighted using asterisks. Intensional mistake is comme
 ```
 **Code 2.**
 ```
-  --------------------------------------------------------------------
-    -- Data generation process
-    --------------------------------------------------------------------
+
     p_stimulus : *process*
     *begin*
         -- Report a note at the begining of stimulus process
