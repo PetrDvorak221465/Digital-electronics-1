@@ -28,8 +28,8 @@
  Canonical SoP (Sum of Products) and PoS (Product of Sums) forms for "equals" and "less than" functions:
  SoP for equals means Sum of Product of collumn "B equals A" on the spots that contains number "1"
  
- ! [SoP_function](Images/equal_SoP.png)
+ ![SoP_function](Images/equal_SoP.png)
  
  PoS for less means Product of Sums of collumn "B is less than A" on the spots that contains number "0"
  
- ! [PoS_funtion](Images/less_PoS.png)
+ ![PoS_funtion](Images/less_PoS.png)
