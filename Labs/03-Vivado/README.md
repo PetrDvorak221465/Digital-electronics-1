@@ -88,6 +88,7 @@ p_stimulus : *process*
 Today we will learn about basics of using **Vivado** program made by **Xilinx, Inc.**
 This program is made for synthesis and analysis of HDL and today i will show you how to start with Vivado
 --------------
+--------------
 ## Making of new project in Vivado
 **1.** After opening Vivado click under **Quick Start** choose **Create Project**.
 ![Vivado_welcome_window](Images/vivado_start.png)
@@ -112,7 +113,8 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 **8.** Then after clicking **Next** you will see a summary of your project and if you are satisfied with the options you have made you click on **Finish** button.
 --------------
-
+--------------
+--------------
 ## Source files and testbench file
 **1.** When your project load up (be patient, it can take a minute) you can add more source files or simulation files by clicking on **File** in the left up corner and then you click on **Add sources**
 ![Vivado_add_sources](Images/vivado_add_sources.png)
@@ -122,7 +124,8 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 **3.** When we made desigh source and simulation source we can start writing code.
 --------------
-
+--------------
+--------------
 ## Simulation
 **1.** After we are done writing the code in our desigh and testbench files we click the ** Run Simulation** button on the left and we choose **Run .... Simulation** (depends on what we are programming)
 ![Vivado_run_sim](Images/vivado_run_sim.png)
