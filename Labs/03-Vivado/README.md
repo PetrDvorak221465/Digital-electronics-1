@@ -79,7 +79,7 @@ p_stimulus : *process*
 
 ### Screenshot with simulated time waveforms
 
-![2bit_4to1_multiplexer_waveforms](Images/Waveforms)
+![2bit_4to1_multiplexer_waveforms](Images/Waveforms.png)
 
 
 ## Task 3. A Vivado tutorial
@@ -89,37 +89,49 @@ Today we will learn about basics of using **Vivado** program made by **Xilinx, I
 This program is made for synthesis and analysis of HDL and today i will show you how to start with Vivado
 
 ### Making of new project in Vivado
-1. After opening Vivado click under **Quick Start** choose **Create Project**.
+**1.** After opening Vivado click under **Quick Start** choose **Create Project**.
 ![Vivado_welcome_window](Images/vivado_start.png)
-2. A wizard open up and on the second window you name your project and location where your project will be saved at.
+
+**2.** A wizard open up and on the second window you name your project and location where your project will be saved at.
 ![Vivado_new_project](Images/vivado_new_project.png)
-3. Ater you continue on the third window you choose **RTL Project**.
+
+**3.** Ater you continue on the third window you choose **RTL Project**.
 ![Vivado_project_type](Images/vivado_project_type.png)
-4. Then on the next window program asks you if you want to make a new source file. Either you can do it here by clicking on **Create File** or you can do it later in the project itself.
+
+**4.** Then on the next window program asks you if you want to make a new source file. Either you can do it here by clicking on **Create File** or you can do it later in the project itself.
 ![Vivado_sources](Images/vivado_sources.png)
-5. Lets suppose you want to create the source now so you click on the **Create File** and small window show up and there you enter the source file name (Lets be honest it is very helpful if you name your sources like the name of your project) and click **OK** and then **Next**.
+
+**5.** Lets suppose you want to create the source now so you click on the **Create File** and small window show up and there you enter the source file name (Lets be honest it is very helpful if you name your sources like the name of your project) and click **OK** and then **Next**.
 ![Vivado_create_source_file](Images/vivado_create_source.png)
-6. The same you can do on the next window but this time for constraints file.
-7. Then you choose Part or Boards. Lets suppose you choose boards so you click on the item **Boards** and there you choose one of the boards.
+
+**6.** The same you can do on the next window but this time for constraints file.
+**7.** Then you choose Part or Boards. Lets suppose you choose boards so you click on the item **Boards** and there you choose one of the boards.
 ![Vivado_Part_or_Boards](Images/vivado_part_or_board.png)
 ![Vivado_Boards](Images/vivado_board.png)
-8. Then after clicking **Next** you will see a summary of your project and if you are satisfied with the options you have made you click on **Finish** button.
+
+**8.** Then after clicking **Next** you will see a summary of your project and if you are satisfied with the options you have made you click on **Finish** button.
 
 ### Source files and testbench file
-1. When your project load up (be patient, it can take a minute) you can add more source files or simulation files by clicking on **File** in the left up corner and then you click on **Add sources**
+**1.** When your project load up (be patient, it can take a minute) you can add more source files or simulation files by clicking on **File** in the left up corner and then you click on **Add sources**
 ![Vivado_add_sources](Images/vivado_add_sources.png)
-2. A window pop up where you can choose if you want design source, simulation source (we call it testbench and its needed to contain conditions for the simulation, so make one of the testbench files) and then constraints file.
-![Vivado_sources_options](Images/vivado_sources_options.png)
-3. When we made desigh source and simulation source we can start writing code.
 
-### Simularion
-1. After we are done writing the code in our desigh and testbench files we click the ** Run Simulation** button on the left and we choose **Run .... Simulation** (depends on what we are programming)
+**2.** A window pop up where you can choose if you want design source, simulation source (we call it testbench and its needed to contain conditions for the simulation, so make one of the testbench files) and then constraints file.
+![Vivado_sources_options](Images/vivado_sources_options.png)
+
+**3.** When we made desigh source and simulation source we can start writing code.
+
+### Simulation
+**1.** After we are done writing the code in our desigh and testbench files we click the ** Run Simulation** button on the left and we choose **Run .... Simulation** (depends on what we are programming)
 ![Vivado_run_sim](Images/vivado_run_sim.png)
-2. The simulation opens and you can see waveforms. If there is some error in the waveforms try to choose other radix
+
+**2.** The simulation opens and you can see waveforms. If there is some error in the waveforms try to choose other radix
 ![Vivado_radix](Images/vivado_radix.png)
-3. Then you can zoom simulation to fit the screen by clicking ** Button with four arrows ** and you can also change the color of the waves.
-![Vivado_zoomfit_colors](vivado_zoomfit_colors.png)
-4. For better understanding of the waveforms you can put a cursors on the waves
+
+**3.** Then you can zoom simulation to fit the screen by clicking ** Button with four arrows ** and you can also change the color of the waves.
+![Vivado_zoomfit_colors](Images/vivado_zoomfit_colors.png)
+
+**4.** For better understanding of the waveforms you can put a cursors on the waves
 ![Vivado_simulation](Images/vivado_simulation.png)
 
-Thats all for my simple Vivado tutorial. Have a nice day.
+
+**Thats all for my simple Vivado tutorial. Have a nice day.**
