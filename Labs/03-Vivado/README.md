@@ -87,7 +87,7 @@ p_stimulus : *process*
 **Welcome to my Vivado tutorial lads!**
 Today we will learn about basics of using **Vivado** program made by **Xilinx, Inc.**
 This program is made for synthesis and analysis of HDL and today i will show you how to start with Vivado
---------------
+
 --------------
 ## Making of new project in Vivado
 **1.** After opening Vivado click under **Quick Start** choose **Create Project**.
@@ -96,7 +96,7 @@ This program is made for synthesis and analysis of HDL and today i will show you
 **2.** A wizard open up and on the second window you name your project and location where your project will be saved at.
 ![Vivado_new_project](Images/vivado_new_project.png)
 --------------
-**3.** Ater you continue on the third window you choose **RTL Project**.
+**3.** After you continue on the third window you choose **RTL Project**.
 ![Vivado_project_type](Images/vivado_project_type.png)
 --------------
 **4.** Then on the next window program asks you if you want to make a new source file. Either you can do it here by clicking on **Create File** or you can do it later in the project itself.
