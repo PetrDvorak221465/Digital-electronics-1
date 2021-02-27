@@ -62,7 +62,7 @@ Listing of simulator console output, i.e. with one reported error (Code 3.)
 In All codes is syntax highlighted using asterisks. Intensional mistake is commented, it is the third value. 
 
 **Code 1.**
-```
+```cd
 *architecture* Behavioral of comparator_2bit *is*
 *begin*
  
