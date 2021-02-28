@@ -167,6 +167,8 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 --------------
 --------------
+--------------
+--------------
 **3.** Then you can zoom simulation to fit the screen by clicking **Button with four arrows** and you can also change the color of the waves.
 
 <img src="Images/vivado_zoomfit_colors.png" width="800">
