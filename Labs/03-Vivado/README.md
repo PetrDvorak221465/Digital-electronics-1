@@ -93,7 +93,7 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 ## Making of new project in Vivado
 **1.** After opening Vivado click under **Quick Start** choose **Create Project**.
-![Vivado_welcome_window](Images/vivado_start.png| width=100)
+![Vivado_welcome_window](Images/vivado_start.png | width=100)
 
 --------------
 **2.** A wizard open up and on the second window you name your project and location where your project will be saved at.
