@@ -1,8 +1,8 @@
 # *Digital-electronics-1.*
 
-## *Labs DE1* 
+# *Labs DE1* 
 
-## *03-Vivado*
+# *03-Vivado*
 
 ## Task 1. Table and schematics with connection of 16 slide switches and 16 LEDs on Nexys A7 board.
 
