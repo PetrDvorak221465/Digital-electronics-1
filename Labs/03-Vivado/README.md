@@ -96,21 +96,16 @@ This program is made for synthesis and analysis of HDL and today i will show you
 <img src="Images/vivado_start.png" width="600">
 
 --------------
-
 --------------
-
 --------------
-
 --------------
-
 --------------
-
 --------------
-
 --------------
-
 --------------
-
+--------------
+--------------
+--------------
 --------------
 
 **2.** A wizard open up and on the second window you name your project and location where your project will be saved at.
