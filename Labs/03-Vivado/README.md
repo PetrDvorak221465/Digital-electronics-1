@@ -155,5 +155,5 @@ This program is made for synthesis and analysis of HDL and today i will show you
 **Thats all for my simple Vivado tutorial. Have a nice day.**
 
 <u>Underlined Words Here</u>
-
+<ins>dfdfdfdf</ins>
 
