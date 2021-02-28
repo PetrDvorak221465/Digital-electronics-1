@@ -31,7 +31,7 @@
 ## Task 2. Two-bit wide 4-to-1 multiplexer
 
 ### Listing of VHDL architecture from source file mux_2bit_4to1.vhd with syntax highlighting (Syntax highlighting is made by asterisks)
-```
+```VHDL
 *architecture* Behavioral *of* mux_2bit_4to1 *is*
 *begin*
  
@@ -44,7 +44,7 @@
 ```
 
 ### Listing of VHDL stimulus process from testbench file tb_mux_2bit_4to1.vhd with syntax highlighting
-```
+```VHDL
 p_stimulus : *process*
     *begin*
         -- Report a note at the begining of stimulus process
@@ -154,4 +154,4 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 **Thats all for my simple Vivado tutorial. Have a nice day.**
 
-<style>p{color:Blue;}<style>
+
