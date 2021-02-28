@@ -94,6 +94,7 @@ This program is made for synthesis and analysis of HDL and today i will show you
 **1.** After opening Vivado click under **Quick Start** choose **Create Project**.
 
 <img src="Images/vivado_start.png" width="600">
+
 --------------
 --------------
 --------------
