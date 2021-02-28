@@ -140,18 +140,15 @@ This program is made for synthesis and analysis of HDL and today i will show you
 **8.** Then after clicking **Next** you will see a summary of your project and if you are satisfied with the options you have made you click on **Finish** button.
 
 --------------
---------------
 ## Source files and testbench file
 **1.** When your project load up (be patient, it can take a minute) you can add more source files or simulation files by clicking on **File** in the left up corner and then you click on **Add sources**
 
-<img src="Images/vivado_add_sources.png" width="800">
+<img src="Images/vivado_add_sources.png" width="600">
 
---------------
 **2.** A window pop up where you can choose if you want design source, simulation source (we call it testbench and its needed to contain conditions for the simulation, so make one of the testbench files) and then constraints file.
 
-<img src="Images/vivado_sources_options.png" width="800">
+<img src="Images/vivado_sources_options.png" width="600">
 
---------------
 **3.** When we made desigh source and simulation source we can start writing code.
 
 --------------
