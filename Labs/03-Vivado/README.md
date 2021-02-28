@@ -114,7 +114,7 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 **5.** Lets suppose you want to create the source now so you click on the **Create File** and small window show up and there you enter the source file name (Lets be honest it is very helpful if you name your sources like the name of your project) and click **OK** and then **Next**.
 
-<img src="Images/vivado_create_source.png" width="600">
+<img src="Images/vivado_create_source.png" width="400">
 
 --------------
 **6.** The same you can do on the next window but this time for constraints file.
