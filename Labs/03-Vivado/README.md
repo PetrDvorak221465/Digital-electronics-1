@@ -90,16 +90,14 @@ p_stimulus : process
 Today we will learn about basics of using **Vivado** program made by **Xilinx, Inc.**
 This program is made for synthesis and analysis of HDL and today i will show you how to start with Vivado
 
---------------
 ## Making of new project in Vivado
 **1.** After opening Vivado click under **Quick Start** choose **Create Project**.
 
 <img src="Images/vivado_start.png" width="800">
-
 --------------
 **2.** A wizard open up and on the second window you name your project and location where your project will be saved at.
 
-<img src="Images/vivado_new_project.png" width="800">
+<img src="Images/vivado_new_project.png" width="600">
 
 --------------
 **3.** After you continue on the third window you choose **RTL Project**.
@@ -119,7 +117,6 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 **6.** The same you can do on the next window but this time for constraints file.
 
---------------
 **7.** Then you choose Part or Boards. Lets suppose you choose boards so you click on the item **Boards** and there you choose one of the boards.
 
 <img src="Images/vivado_part_or_board.png" width="800">
