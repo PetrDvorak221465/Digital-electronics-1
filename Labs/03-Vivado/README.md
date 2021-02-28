@@ -4,7 +4,7 @@
 
 # *03-Vivado*
 
-## Task 1. Table and schematics with connection of 16 slide switches and 16 LEDs on Nexys A7 board.
+## ___Task 1. Table and schematics with connection of 16 slide switches and 16 LEDs on Nexys A7 board.___
 
 
 | **Switch number** | **Switch pin** | **LED number** | **LED pin** |
@@ -153,5 +153,7 @@ This program is made for synthesis and analysis of HDL and today i will show you
 
 --------------
 **Thats all for my simple Vivado tutorial. Have a nice day.**
+
+<u>Underlined Words Here</u>
 
 
