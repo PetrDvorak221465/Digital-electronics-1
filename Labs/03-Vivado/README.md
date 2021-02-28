@@ -109,6 +109,10 @@ This program is made for synthesis and analysis of HDL and today i will show you
 
 --------------
 
+--------------
+
+--------------
+
 **2.** A wizard open up and on the second window you name your project and location where your project will be saved at.
 
 <img src="Images/vivado_new_project.png" width="600">
