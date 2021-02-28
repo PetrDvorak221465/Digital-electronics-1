@@ -4,7 +4,7 @@
 
 # *03-Vivado*
 
-## ___Task 1. Table and schematics with connection of 16 slide switches and 16 LEDs on Nexys A7 board.___
+## <ins>Task 1. Table and schematics with connection of 16 slide switches and 16 LEDs on Nexys A7 board</ins>
 
 
 | **Switch number** | **Switch pin** | **LED number** | **LED pin** |
@@ -28,7 +28,7 @@
 
 ![Switch_&_LED_connection](Images/SWs_LEDs.png)
 
-## Task 2. Two-bit wide 4-to-1 multiplexer
+## <ins>Task 2. Two-bit wide 4-to-1 multiplexer</ins>
 
 ### Listing of VHDL architecture from source file mux_2bit_4to1.vhd with syntax highlighting 
 ```VHDL
@@ -82,7 +82,7 @@ p_stimulus : process
 ![2bit_4to1_multiplexer_waveforms](Images/Waveforms.png)
 
 
-## Task 3. A Vivado tutorial
+## <ins>Task 3. A Vivado tutorial</ins>
 
 **Welcome to my Vivado tutorial lads!**
 Today we will learn about basics of using **Vivado** program made by **Xilinx, Inc.**
@@ -153,7 +153,3 @@ This program is made for synthesis and analysis of HDL and today i will show you
 
 --------------
 **Thats all for my simple Vivado tutorial. Have a nice day.**
-
-<u>Underlined Words Here</u>
-<ins>dfdfdfdf</ins>
-
