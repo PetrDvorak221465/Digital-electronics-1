@@ -146,10 +146,12 @@ This program is made for synthesis and analysis of HDL and today i will show you
 --------------
 **3.** Then you can zoom simulation to fit the screen by clicking ** Button with four arrows ** and you can also change the color of the waves.
 ![Vivado_zoomfit_colors](Images/vivado_zoomfit_colors.png)
---------------
 
+--------------
 **4.** For better understanding of the waveforms you can put a cursors on the waves
 ![Vivado_simulation](Images/vivado_simulation.png)
 
 --------------
 **Thats all for my simple Vivado tutorial. Have a nice day.**
+
+<style>p{color:Blue;}<style>
