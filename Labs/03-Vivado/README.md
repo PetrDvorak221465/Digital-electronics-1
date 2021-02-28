@@ -28,6 +28,8 @@
 
 ![Switch_&_LED_connection](Images/SWs_LEDs.png)
 
+
+--------------
 ## <ins>Task 2. Two-bit wide 4-to-1 multiplexer</ins>
 
 ### Listing of VHDL architecture from source file mux_2bit_4to1.vhd with syntax highlighting 
@@ -77,7 +79,6 @@ p_stimulus : process
     end process p_stimulus;
 ```
 
---------------
 ### Screenshot with simulated time waveforms
 
 ![2bit_4to1_multiplexer_waveforms](Images/Waveforms.png)
