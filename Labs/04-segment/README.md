@@ -173,6 +173,8 @@ end Behavioral;
 ----------
 ----------
 ----------
+----------
+----------
 ### Screenshot with simulated time waveforms.
 ![LED_Waveform](Images/Waveform_LED.png)
 
