@@ -8,15 +8,15 @@
 
 ### Figure or table with connection of 7-segment displays on Nexys A7 board
 
-| **No. of 7seg displey** | **Pin location of display** || **Segments** | **Pin location of segments** |
-| :-: | :-: || :-: | :-: |
-| 0(AN0) | J17 || a(CA) | T10 |
-| 1(AN1) | J18 || b(CB) | R10 |
-| 2(AN2) | T9  || c(CC) | K16 |
-| 3(AN3) | J14 || d(CD) | K13 |
-| 4(AN4) | P14 || e(CE) | P15 |
-| 5(AN5) | T14 || f(CF) | T11 |
-| 6(AN6) | K2  || g(CG) | L18 |
+| **No. of 7seg displey** | **Pin location of display** | **Segments** | **Pin location of segments** |
+| :-: | :-: | :-: | :-: |
+| 0(AN0) | J17 | a(CA) | T10 |
+| 1(AN1) | J18 | b(CB) | R10 |
+| 2(AN2) | T9  | c(CC) | K16 |
+| 3(AN3) | J14 | d(CD) | K13 |
+| 4(AN4) | P14 | e(CE) | P15 |
+| 5(AN5) | T14 | f(CF) | T11 |
+| 6(AN6) | K2  | g(CG) | L18 |
 | 7(AN7) | U13 |   
 
 ### Decoder truth table for common anode 7-segment display.
@@ -39,6 +39,12 @@
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+----------
+----------
+----------
+----------
+----------
 
 ## Task 2. Seven-segment display decoder.
 
@@ -87,14 +93,15 @@ begin
 
 end Behavioral;
 ```
+----------
+----------
+----------
 
 ### Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd
 ```VHDL
   p_stimulus : process
     begin
-
         report "Stimulus process started" severity note;
-
         s_hex <= "0000"; wait for 100 ns;
         s_hex <= "0001"; wait for 100 ns;
         s_hex <= "0010"; wait for 100 ns;
@@ -110,20 +117,16 @@ end Behavioral;
         s_hex <= "1100"; wait for 100 ns;
         s_hex <= "1101"; wait for 100 ns;
         s_hex <= "1110"; wait for 100 ns;
-        s_hex <= "1111"; wait for 100 ns;
-        
+        s_hex <= "1111"; wait for 100 ns;      
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-
 ```
-
 ### Screenshot with simulated time waveforms
 
 ![Simulated_waveforms](Images/Waveform.png)
 
 ### Listing of VHDL code from source file top.vhd with 7-segment module instantiation.
-
 ```VHDL
  hex2seg : entity work.hex_7seg
         port map(
@@ -161,8 +164,18 @@ end Behavioral;
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 0 | 0 |
 
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
 ### Screenshot with simulated time waveforms.
-
 ![LED_Waveform](Images/Waveform_LED.png)
 
 
