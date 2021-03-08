@@ -101,9 +101,7 @@ end Behavioral;
 ```VHDL
   p_stimulus : process
     begin
-
         report "Stimulus process started" severity note;
-
         s_hex <= "0000"; wait for 100 ns;
         s_hex <= "0001"; wait for 100 ns;
         s_hex <= "0010"; wait for 100 ns;
@@ -119,20 +117,16 @@ end Behavioral;
         s_hex <= "1100"; wait for 100 ns;
         s_hex <= "1101"; wait for 100 ns;
         s_hex <= "1110"; wait for 100 ns;
-        s_hex <= "1111"; wait for 100 ns;
-        
+        s_hex <= "1111"; wait for 100 ns;      
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-
 ```
-
 ### Screenshot with simulated time waveforms
 
 ![Simulated_waveforms](Images/Waveform.png)
 
 ### Listing of VHDL code from source file top.vhd with 7-segment module instantiation.
-
 ```VHDL
  hex2seg : entity work.hex_7seg
         port map(
