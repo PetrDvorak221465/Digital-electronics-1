@@ -40,6 +40,10 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
+----------
+----------
+----------
+
 ## Task 2. Seven-segment display decoder.
 
 ### Listing of VHDL architecture from source file hex_7seg.vhd
