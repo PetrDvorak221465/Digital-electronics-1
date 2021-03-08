@@ -8,15 +8,15 @@
 
 ### Figure or table with connection of 7-segment displays on Nexys A7 board
 
-| **No. of 7seg displey** | **Pin location of display** || **Segments** | **Pin location of segments** |
-| :-: | :-: || :-: | :-: |
-| 0(AN0) | J17 || a(CA) | T10 |
-| 1(AN1) | J18 || b(CB) | R10 |
-| 2(AN2) | T9  || c(CC) | K16 |
-| 3(AN3) | J14 || d(CD) | K13 |
-| 4(AN4) | P14 || e(CE) | P15 |
-| 5(AN5) | T14 || f(CF) | T11 |
-| 6(AN6) | K2  || g(CG) | L18 |
+| **No. of 7seg displey** | **Pin location of display** | **Segments** | **Pin location of segments** |
+| :-: | :-: | :-: | :-: |
+| 0(AN0) | J17 | a(CA) | T10 |
+| 1(AN1) | J18 | b(CB) | R10 |
+| 2(AN2) | T9  | c(CC) | K16 |
+| 3(AN3) | J14 | d(CD) | K13 |
+| 4(AN4) | P14 | e(CE) | P15 |
+| 5(AN5) | T14 | f(CF) | T11 |
+| 6(AN6) | K2  | g(CG) | L18 |
 | 7(AN7) | U13 |   
 
 ### Decoder truth table for common anode 7-segment display.
