@@ -93,6 +93,9 @@ begin
 
 end Behavioral;
 ```
+----------
+----------
+----------
 
 ### Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd
 ```VHDL
