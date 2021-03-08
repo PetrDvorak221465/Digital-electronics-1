@@ -164,6 +164,15 @@ end Behavioral;
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 0 | 0 |
 
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
 ### Screenshot with simulated time waveforms.
 ![LED_Waveform](Images/Waveform_LED.png)
 
