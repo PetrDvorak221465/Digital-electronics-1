@@ -14,6 +14,7 @@
 -----------------------------
 -----------------------------
 -----------------------------
+-----------------------------
 ## Task 1. Preparation tasks
 
 ### Figure or table with connection of push buttons on Nexys A7 board
