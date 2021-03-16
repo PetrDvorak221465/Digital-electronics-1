@@ -45,6 +45,7 @@
 -----------------------------
 -----------------------------
 -----------------------------
+-----------------------------
 ## Task 2. Bidirectional counter
 
 ### Listing of VHDL code of the process p_cnt_up_down
