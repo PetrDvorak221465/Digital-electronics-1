@@ -149,8 +149,7 @@ clk_en0 : entity work.clock_enable
         clk    => CLK100MHZ,                        
         reset  => BTNC,                             
         ce_o   => s_en                              
-    );                                              
-                                                    
+    );                                                                                                  
 ----------------------------------------------------
 -- Instance of cnt_up_down entity                   
 bin_cnt0 : entity work.cnt_up_down                  
@@ -163,8 +162,7 @@ bin_cnt0 : entity work.cnt_up_down
       en_i      => s_en,                            
       cnt_up_i  => SW(0),                           
       cnt_o     => s_cnt                            
-    );                                              
-                                                    
+    );                                                                                                 
 -- Display input value on LEDs                      
 LED(3 downto 0) <= s_cnt;                           
                                                     
