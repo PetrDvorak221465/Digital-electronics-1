@@ -110,14 +110,10 @@ begin
     p_reset_gen : process                                             
    begin                                                             
        s_reset <= '0';                                               
-       wait for 28 ns;                                               
-                                                                     
-                                                  
+       wait for 28 ns;                                                                                         
        s_reset <= '1';                                               
-       wait for 53 ns;                                               
-                                                    
-       s_reset <= '0';                                               
-                                                                     
+       wait for 53 ns;                                                                                           
+       s_reset <= '0';                                                                                                            
        wait for 560 ns;
         s_reset <= '1';
                                                                       
@@ -135,11 +131,8 @@ begin
         s_data2 <= "0001";
         s_data1 <= "0100";
         s_data0 <= "0010";
-        
-        s_dp_i  <= "0111";   
-        
+        s_dp_i  <= "0111";
         wait for 350 ns;
-        
         s_data3 <= "0001";
         s_data2 <= "0000";
         s_data1 <= "0001";
