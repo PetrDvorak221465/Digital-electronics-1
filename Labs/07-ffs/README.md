@@ -550,6 +550,10 @@ p_jk_ff_rst : process(clk)
 ---------------
 ---------------
 ---------------
+---------------
+---------------
+---------------
+---------------
 ## Task 4. Shift register.
 
 ### Image of the shift register schematic. 
