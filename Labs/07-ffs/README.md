@@ -9,7 +9,9 @@
 ### Characteristic equations and completed tables for D, JK, T flip-flops.
 ![CharEq](Images/CharEq.png)
 
-
+---------------
+---------------
+---------------
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | Signal sampled by rising edge of *clk* |
