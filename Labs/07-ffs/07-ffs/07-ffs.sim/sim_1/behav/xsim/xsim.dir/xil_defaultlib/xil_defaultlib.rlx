@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_ff_arst.vhd,1617131248,vhdl,,,,tb_d_ff_arst,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_ff_rst.vhd,1617136401,vhdl,,,,tb_d_ff_rst,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_latch.vhd,1617126299,vhdl,,,,tb_d_latch,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_jk_ff_rst.vhd,1617133363,vhdl,,,,tb_jk_ff_rst,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_t_ff_rst.vhd,1617138810,vhdl,,,,tb_t_ff_rst,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sources_1/new/d_ff_arst.vhd,1617136187,vhdl,C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_ff_arst.vhd,,,d_ff_arst,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sources_1/new/d_ff_rst.vhd,1617136695,vhdl,C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_ff_rst.vhd,,,d_ff_rst,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sources_1/new/d_latch.vhd,1617129820,vhdl,C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_d_latch.vhd,,,d_latch,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sources_1/new/jk_ff_rst.vhd,1617136187,vhdl,C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_jk_ff_rst.vhd,,,jk_ff_rst,,,,,,,,
+C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sources_1/new/t_ff_rst.vhd,1617138545,vhdl,C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/07-ffs/07-ffs/07-ffs.srcs/sim_1/new/tb_t_ff_rst.vhd,,,t_ff_rst,,,,,,,,
