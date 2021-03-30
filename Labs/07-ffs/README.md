@@ -543,7 +543,13 @@ p_jk_ff_rst : process(clk)
 ### Screenshot with simulated time waveforms; always display all inputs and outputs. p_t_ff_rst
 ![T_RST](Images/WaveT_RST.png)
 
-
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
 ## Task 4. Shift register.
 
 ### Image of the shift register schematic. 
