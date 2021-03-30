@@ -191,7 +191,6 @@ p_d_ff_arst : process(clk, arst)
         end loop;
         wait;
     end process p_clk_gen;
-    
     --------------------------------------------------------------------
     -- Reset generation process
     --------------------------------------------------------------------
@@ -211,16 +210,13 @@ p_d_ff_arst : process(clk, arst)
                                                                       
        wait;                                                         
    end process p_reset_gen;
-
     --------------------------------------------------------------------
     -- Data generation process
     --------------------------------------------------------------------
     p_stimulus : process                                              
    begin                                                             
        report "Stimulus process started" severity note;              
-        
         s_d <= '0';
-        
         wait for 14 ns; 
        s_d <= '1';
        wait for 10 ns; 
