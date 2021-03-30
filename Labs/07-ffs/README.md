@@ -34,3 +34,6 @@
    | ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | No change |
    | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Invert (Toggle) |
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | Invert (Toggle) |
+   
+   dd
+   
