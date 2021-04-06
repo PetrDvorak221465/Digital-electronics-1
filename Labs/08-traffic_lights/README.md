@@ -27,6 +27,9 @@
 ### State diagram
 ![State_diagram](Images/statediagram_tlc.png)
 
+-----------
+-----------
+-----------
 ### Listing of VHDL code of sequential process p_traffic_fsm with syntax highlighting
 ```VHDL
  p_traffic_fsm : process(clk)
