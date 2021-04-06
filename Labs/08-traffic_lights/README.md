@@ -163,7 +163,9 @@ p_output_fsm : process(s_state)
 ```
 ### Screenshot(s) of the simulation, from which it is clear that controller works correctly
 ![Waveform1](Images/sc1.png)
+
 ![Waveform2](Images/sc2.png)
+
 ![Waveform3](Images/sc3.png)
 
 ## Task 3. Smart controller
