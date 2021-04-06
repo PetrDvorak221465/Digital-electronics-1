@@ -171,7 +171,7 @@ p_output_fsm : process(s_state)
 ## Task 3. Smart controller
 
 Sensors are named i1 and i2 (Sensor is active in '1')
------------
+
 Sensor i1 is EAST-WEST and sensor i2 is NORTH-SOUTH
 
 ### State table
