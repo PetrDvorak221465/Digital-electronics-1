@@ -185,6 +185,12 @@ Sensors are named i1 and i2 (Sensor is active in '1')
 | `SOUTH_GO`   | green  | red | 4 sec | SOUTH_WAIT |
 | `SOUTH_WAIT` | yellow | red | 2 sec | STOP1 |
 
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
 ### State diagram
 ![Smart_diagram](Images/statediagram_smart_tlc.png)
 
