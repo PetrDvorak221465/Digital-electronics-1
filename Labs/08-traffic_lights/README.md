@@ -191,6 +191,8 @@ Sensors are named i1 and i2 (Sensor is active in '1')
 -----------
 -----------
 -----------
+-----------
+-----------
 ### State diagram
 ![Smart_diagram](Images/statediagram_smart_tlc.png)
 
