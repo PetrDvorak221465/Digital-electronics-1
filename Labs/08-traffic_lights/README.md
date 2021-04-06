@@ -124,6 +124,13 @@
         end if; -- Rising edge
     end process p_traffic_fsm;
 ```
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
 ### Listing of VHDL code of combinatorial process p_output_fsm with syntax highlighting
 ```VHDL
 p_output_fsm : process(s_state)
