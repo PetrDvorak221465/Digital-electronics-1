@@ -165,11 +165,11 @@ Sensors are named i1 and i2 (Sensor is active in '1')
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **Next state based on sensor** |
 | :-: | :-: | :-: | :-: | :-: |
 | `STOP1`      | red    | red | 1 sec | *[i1,i2]=[0,1]* => next state = SOUTH_GO|
-| :-: | :-: | :-: | :-: | *[i1,i2]=[0,0]or[1,1]or[1,0]* next state = WEST_GO |
+|  |  |  |  | *[i1,i2]=[0,0]or[1,1]or[1,0]* next state = WEST_GO |
 | `WEST_GO`    | red    | green | 4 sec | WEST_WAIT |
 | `WEST_WAIT`  | red    | yellow | 2 sec | STOP2 |
 | `STOP2`      | red    | red | 1 sec | *[i1,i2]=[1,0]* => next state = WEST_GO |
-| :-: | :-: | :-: | :-: | *[i1,i2]=[0,0]or[1,1]or[0,1]* next state = SOUTH_GO |
+|  |  |  |  | *[i1,i2]=[0,0]or[1,1]or[0,1]* next state = SOUTH_GO |
 | `SOUTH_GO`   | green  | red | 4 sec | SOUTH_WAIT |
 | `SOUTH_WAIT` | yellow | red | 2 sec | STOP1 |
 
