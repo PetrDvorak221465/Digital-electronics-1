@@ -499,20 +499,16 @@ Testbench file (Clk generation proces a stimulus proces)
         
         s_cnp_i <= "000";   
         s_digit_i <= "0001";
-        wait for 50 ns;    
-        
+        wait for 50 ns;   
         s_cnp_i <= "001";     
         s_digit_i <= "0010";  
-        wait for 50 ns;      
-                        
+        wait for 50 ns;                  
         s_cnp_i <= "010";     
         s_digit_i <= "0011";  
         wait for 50 ns;
-        
         s_cnp_i <= "011";     
         s_digit_i <= "0100";  
-        wait for 50 ns;      
-                      
+        wait for 50 ns;               
         s_cnp_i <= "100";     
         s_digit_i <= "1100";
         wait for 50 ns;
@@ -520,19 +516,15 @@ Testbench file (Clk generation proces a stimulus proces)
         s_cnp_i <= "000";
         s_digit_i <= "0001";
         wait for 50 ns;
-        
         s_cnp_i <= "001";   
         s_digit_i <= "0010";
         wait for 50 ns;
-        
         s_cnp_i <= "010";       
         s_digit_i <= "0011";
         wait for 50 ns;    
-        
         s_cnp_i <= "011";   
         s_digit_i <= "0100";
-        wait for 50 ns;    
-        
+        wait for 50 ns;   
         s_cnp_i <= "100";   
         s_digit_i <= "1010";
         wait for 200 ns;    
@@ -540,28 +532,23 @@ Testbench file (Clk generation proces a stimulus proces)
         s_cnp_i <= "000";
         s_digit_i <= "0000";
         wait for 50 ns;  
-          
-          
         s_cnp_i <= "000";
         s_digit_i <= "0001";
         wait for 50 ns;
-        
         s_cnp_i <= "001";   
         s_digit_i <= "0010";
         wait for 50 ns;
-        
         s_cnp_i <= "010";       
         s_digit_i <= "0110";
         wait for 50 ns;    
-        
         s_cnp_i <= "011";   
         s_digit_i <= "0101";
         wait for 50 ns;    
-        
+  
         s_cnp_i <= "100";   
         s_digit_i <= "0011";
         wait for 50 ns;    
-            
+        
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
