@@ -695,19 +695,15 @@ Testbench file (Clk generation a stimulus proces)
         report "Stimulus process started" severity note; -- data generation process
         s_btn_row <= "1111";
         wait for 200 ns;
-      
         s_btn_row <= "1101";
         wait for 200 ns;
-        
         s_btn_row <= "1111";
         wait for 200 ns;
-        
         s_btn_row <= "0111";
         wait for 200 ns;
-        
         s_btn_row <= "1111";
         wait for 200 ns;
-        
+	
         s_btn_row <= "1011";
         wait for 200 ns;
         
@@ -753,10 +749,10 @@ Testbench file (Clk generation a stimulus proces)
         s_btn_row <= "1101";
         wait for 200 ns;
         report "Stimulus process finished" severity note;
+	
         wait;
     end process p_stimulus;
 ```
-
 Simulace
 ![Simulace door_lock_system1](Images/top_module_sim1.png)
 ![Simulace door_lock_system2](Images/top_module_sim2.png)
