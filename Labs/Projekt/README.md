@@ -78,8 +78,7 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
 ------------------
 ------------------
 ------------------
-------------------
-------------------
+
 ### Schéma top modulu
 ![Schématop modulu](Images/top_module.jpeg)
 
@@ -99,6 +98,8 @@ v zapojení pinů u sedmisegmentových diplejů.
 | led0[1] | F6 |  |  |  
 | led0[0] | G6 |  |  |  
 
+------------------
+------------------
 
 ## VHDL moduly s popisem, kódem a simulacemi
 ### VHDL modul btn_to_num
