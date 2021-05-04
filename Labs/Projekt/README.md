@@ -708,12 +708,12 @@ Simulace
 
 ## Reference
 
-	1. Testování a simulace pro modul hex_7seg - [Odkaz na modul hex_7seg na platformě GitHub]( https://github.com/PetrDvorak221465/Digital-electronics-1/blob/main/Labs/04-segment/README.md )
+	1. Testování a simulace pro modul hex_7seg - [Odkaz na modul hex_7seg na platformě GitHub](https://github.com/PetrDvorak221465/Digital-electronics-1/blob/main/Labs/04-segment/README.md )
 	
-	2. Testování a simulace pro modul clock enable + count up/down - [Odkaz na modul clock_enable a count up/down na platformě GitHub]( https://github.com/PetrDvorak221465/Digital-electronics-1/blob/main/Labs/05-counter/README.md)
+	2. Testování a simulace pro modul clock enable + count up/down - [Odkaz na modul clock_enable a count up/down na platformě GitHub](https://github.com/PetrDvorak221465/Digital-electronics-1/blob/main/Labs/05-counter/README.md)
 	
-	3. Testování a simulace pro modul multiplexer - [Odkaz na modul multiplexer na platformě GitHub]( https://github.com/PetrDvorak221465/Digital-electronics-1/blob/main/Labs/06-display_driver/README.md)
+	3. Testování a simulace pro modul multiplexer - [Odkaz na modul multiplexer na platformě GitHub](https://github.com/PetrDvorak221465/Digital-electronics-1/blob/main/Labs/06-display_driver/README.md)
 
-	4. Informace o desce Arty A7-35T se kterou jsme pracovali - [Odkaz reference manual desky Arty A7-35T]( https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual)
-																[Odkaz na schémata desky Arty A7-35T]( https://reference.digilentinc.com/_media/reference/programmable-logic/arty-a7/arty_a7_sch.pdf)
+	4. Informace o desce Arty A7-35T se kterou jsme pracovali - [Odkaz reference manual desky Arty A7-35T](https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual)
+																[Odkaz na schémata desky Arty A7-35T](https://reference.digilentinc.com/_media/reference/programmable-logic/arty-a7/arty_a7_sch.pdf)
 
