@@ -47,21 +47,21 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
 		a stav s4 následně vrátí proces do stavu s0. Pokud je zmáčknuto tlačítko křížku, zadávání kódu je předčasně ukončeno a stav je
 		vrácen do stavu s0. Zdali je kód zadán a potvrzen správně je na určitou dobu spustěné relé které otevře dveře. K tomu LED dioda,
 		která do této doby svítila červeně zezelená. Po uplynutí intervalu se relé zavře a LED dioda se změní zpět na červenou.
-
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
 ### Schéma top modulu
 ![Schématop modulu](Images/top_module.jpeg)
-------------------
-------------------
-------------------
-------------------
-------------------
-------------------
-------------------
-------------------
-------------------
-------------------
-------------------
-------------------
+
 ### Schéma FSM
 <img src="Images/FSM_Schema.png" width="300">
 
