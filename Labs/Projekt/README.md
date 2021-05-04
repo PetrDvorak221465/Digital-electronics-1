@@ -103,6 +103,8 @@ v zapojení pinů u sedmisegmentových diplejů.
 
 ------------------
 ------------------
+------------------
+------------------
 
 ## VHDL moduly s popisem, kódem a simulacemi
 ### VHDL modul btn_to_num
