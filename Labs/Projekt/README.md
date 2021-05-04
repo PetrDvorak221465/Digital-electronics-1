@@ -46,15 +46,15 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
 		která do této doby svítila červeně zezelená. Po uplynutí intervalu se relé zavře a LED dioda se změní zpět na červenou.
 
 ### Schéma top modulu
-[Schématop modulu](Images/top_module.jpeg)
+![Schématop modulu](Images/top_module.jpeg)
  
 ### Schéma FSM
-[Schéma FSM](Images/FSM_Schema.png)
+![Schéma FSM](Images/FSM_Schema.png)
 
 ### Schéma zapojení pinů
-[Schéma zapojení pinů 7seg](Images/schema_7seg.png)
+![Schéma zapojení pinů 7seg](Images/schema_7seg.png)
 
-[Schéma zapojení pinů keypad](Images/schema_keypad.png)
+![Schéma zapojení pinů keypad](Images/schema_keypad.png)
 Chybějcí zapojení GND a 3V3 je nám známo. Zapoměli jsme na něj. Jedná se však o stejný princip jako 
 v zapojení pinů u sedmisegmentových diplejů.
 
@@ -271,7 +271,7 @@ Testbench file (Clk generation proces a stimulus proces)
 ```
 
 Simulace
-[Simulace btn_to_num](Images/tb_btn_to_num_sim.png)
+![Simulace btn_to_num](Images/tb_btn_to_num_sim.png)
 
 ### VHDL modul FSM_door_lock *dls*
 Design file (proces p_code_check)
@@ -509,7 +509,7 @@ Testbench file (Clk generation proces a stimulus proces)
 ```
 
 Simulace
-[Simulace FSM_door_lock](Images/tb_FSM_door_lock_sim.png)
+![Simulace FSM_door_lock](Images/tb_FSM_door_lock_sim.png)
 
 Ostatní z našich modulů byly již byly otestovány a odsimulovány a to ve čtvrtém cvičení (hex_7seg), v pátém cvičení (clock enable, count up/down) a pak v šestém cvičení (multiplexer).
 Odkazy na soubory s testovanými kódy jsou přiloženy v referencích.
@@ -698,8 +698,8 @@ Testbench file (Clk generation a stimulus proces)
 ```
 
 Simulace
-[Simulace door_lock_system1](Images/top_module_sim1.png)
-[Simulace door_lock_system2](Images/top_module_sim2.png)
+![Simulace door_lock_system1](Images/top_module_sim1.png)
+![Simulace door_lock_system2](Images/top_module_sim2.png)
 
 ## Video
 
