@@ -203,6 +203,11 @@ Design file (proces p_read)
     end process p_read;
 ```
 
+------------------
+------------------
+------------------
+------------------
+
 Testbench file (Clk generation proces a stimulus proces)
 ```VHDL
    p_clk_gen : process -- clock period generation process
