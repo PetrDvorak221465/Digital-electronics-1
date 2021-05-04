@@ -23,23 +23,23 @@ mezi logickou "0" a "1". Pouze při stlačení tlačítka řádku na sloupci, kt
 
 K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, count up/down, multiplexer, hex_7seg, btn_to_num, FSM_door_lock
 ### Popis modulů
-clock enable - Modul snižující frekvenci vestavěného clocku v desce a tím prodloužuje periodu spuštěného signálu.
+**clock enable** - Modul snižující frekvenci vestavěného clocku v desce a tím prodloužuje periodu spuštěného signálu.
 
-count up/down - Čítač nahoru a dolů je modul schopný počítat v obou směrech. Pro naše použití postačí čítání jedním směrem. Tento modul je ovládaný modulem 
+**count up/down** - Čítač nahoru a dolů je modul schopný počítat v obou směrech. Pro naše použití postačí čítání jedním směrem. Tento modul je ovládaný modulem 
 		clock enable. V multiplexeru mění hodnotu, která pak na čtyř segmentových displejích rozhoduje, který z displejů bude v daný okamžik svítit.
 
-multiplexer - Modul spojující hodnotu dat přicházejících z modulu FSM_door_lock s daty přicházejících hodnot z modulu count up/down. Následně jsou tyto data
+**multiplexer** - Modul spojující hodnotu dat přicházejících z modulu FSM_door_lock s daty přicházejících hodnot z modulu count up/down. Následně jsou tyto data
 		poslány k zobrazení.
 
-hex_7seg - Je modul sloužící k zobrazení hexadecimálního čísla na sedmisegmentovém displeji, pomocí jednotlivých segmentů.
+**hex_7seg** - Je modul sloužící k zobrazení hexadecimálního čísla na sedmisegmentovém displeji, pomocí jednotlivých segmentů.
 
-btn_to_num - Entita která je propojená s externím keypadem. Do keypadu se posílá 3 bitové číslo, kde každý bit je připojen na jeden sloupec 
+**btn_to_num** - Entita která je propojená s externím keypadem. Do keypadu se posílá 3 bitové číslo, kde každý bit je připojen na jeden sloupec 
 		a postupně nastavuje vždy jeden sloupec na logickou "0" dokud se nestlačí některé z tlačítek, pak je hodnota outputu stála až do puštění tlačítka. 
 		Z keypadu příjmá čtyřbitový input z řádků tlačítek kdy pokud není zmáčklé žádné tlačítko, input je roven "1111" jinak je vždy jeden bit roven "0". 
 		btn_to_num poté zjišťuje jaká hodnota inputu keypadu nastala při aktuální hodnotě outputu sloupců a přiřadí hodnotu inputu ke čtyřbitovému číslu, 
 		který je outputem entity a nese hodnotu zmáčklého tlačítka. Dále zaznamenává pořadí zmáčklého tlačítka a tento stav přiřazuje tříbitovému outputu.
 	
-FSM_door_lock - Tento modul kontroluje správnost kódu. V základu jsou všechny hodnoty nastaveny do nul a následně jsou průchodem stavů,
+**FSM_door_lock** - Tento modul kontroluje správnost kódu. V základu jsou všechny hodnoty nastaveny do nul a následně jsou průchodem stavů,
 		přepisovány. Na konci je správný kód potvrzen tlačítkem hvězdičky Pokud dojde k chybnému zadání do funkce fail se zapíše jednička 
 		a stav s4 následně vrátí proces do stavu s0. Pokud je zmáčknuto tlačítko křížku, zadávání kódu je předčasně ukončeno a stav je
 		vrácen do stavu s0. Zdali je kód zadán a potvrzen správně je na určitou dobu spustěné relé které otevře dveře. K tomu LED dioda,
