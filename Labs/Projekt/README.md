@@ -66,8 +66,9 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
 <img src="Images/FSM_Schema.png" width="300">
 
 ### Schéma zapojení pinů
+Sedmisegmentové displeje
 ![Schéma zapojení pinů 7seg](Images/schema_7seg.png)
-
+Keypad
 ![Schéma zapojení pinů keypad](Images/schema_keypad.png)
 Chybějcí zapojení GND a 3V3 je nám známo. Zapoměli jsme na něj. Jedná se však o stejný princip jako 
 v zapojení pinů u sedmisegmentových diplejů.
