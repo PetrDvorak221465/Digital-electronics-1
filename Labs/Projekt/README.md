@@ -4,7 +4,7 @@
 
 Klára Heimlichová, Kamil Holub, Petr Dvořák a Ondřej Dočekal
 
-[Odkaz na složku projektu na platformě GitHub]( http://github.com/xxx)
+[Odkaz na složku projektu na platformě GitHub]( https://github.com/PetrDvorak221465/Digital-electronics-1/tree/main/Labs/Projekt)
 
 ### Cíle projektu
 
