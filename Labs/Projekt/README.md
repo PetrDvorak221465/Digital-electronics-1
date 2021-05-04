@@ -466,6 +466,8 @@ Design file (proces p_code_check)
 ------------------
 ------------------
 ------------------
+------------------
+------------------
 
 
 Testbench file (Clk generation proces a stimulus proces)
@@ -514,9 +516,7 @@ Testbench file (Clk generation proces a stimulus proces)
         s_cnp_i <= "100";     
         s_digit_i <= "1100";
         wait for 50 ns;
-        
 
-        
         s_cnp_i <= "000";
         s_digit_i <= "0001";
         wait for 50 ns;
@@ -536,9 +536,7 @@ Testbench file (Clk generation proces a stimulus proces)
         s_cnp_i <= "100";   
         s_digit_i <= "1010";
         wait for 200 ns;    
-          
-          
-          
+
         s_cnp_i <= "000";
         s_digit_i <= "0000";
         wait for 50 ns;  
