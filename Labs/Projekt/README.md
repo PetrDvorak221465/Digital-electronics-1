@@ -93,7 +93,6 @@ Keypad
 ![Schéma zapojení pinů keypad](Images/schema_keypad.png)
 Chybějcí zapojení GND a 3V3 je nám známo. Zapoměli jsme na něj. Jedná se však o stejný princip jako 
 v zapojení pinů u sedmisegmentových diplejů.
-
 | **RGB LED** | **Pin location of the RGB LED** | **Relay** | **Pin location of relay** |
 | :-: | :-: | :-: | :-: |
 | led0[2] | E1 | jb | E15 |  
