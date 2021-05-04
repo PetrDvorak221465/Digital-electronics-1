@@ -85,6 +85,9 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
 ### Schéma FSM
 <img src="Images/FSM_Schema.png" width="400">
 
+------------------
+------------------
+
 ### Schéma zapojení pinů
 Sedmisegmentové displeje
 ![Schéma zapojení pinů 7seg](Images/schema_7seg.png)
