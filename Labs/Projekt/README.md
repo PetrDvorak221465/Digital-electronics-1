@@ -660,6 +660,13 @@ Design file
  end Behavioral;
 ```
 
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+
 Testbench file (Clk generation a stimulus proces)
 ```VHDL
 	p_clk_gen : process -- clock period generation process
