@@ -90,7 +90,7 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
 Sedmisegmentové displeje
 ![Schéma zapojení pinů 7seg](Images/schema_7seg.png)
 Keypad
-![Schéma zapojení pinů keypad](Images/schema_keypad.png)
+<img src="Images/schema_keypad.png" width="400">
 Chybějcí zapojení GND a 3V3 je nám známo. Zapoměli jsme na něj. Jedná se však o stejný princip jako 
 v zapojení pinů u sedmisegmentových diplejů.
 | **RGB LED** | **Pin location of the RGB LED** | **Relay** | **Pin location of relay** |
