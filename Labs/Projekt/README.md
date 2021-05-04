@@ -666,6 +666,8 @@ Design file
 ------------------
 ------------------
 ------------------
+------------------
+------------------
 
 Testbench file (Clk generation a stimulus proces)
 ```VHDL
