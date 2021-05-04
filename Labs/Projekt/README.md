@@ -16,6 +16,8 @@ intervalu dojde k selhání a vyresetování), a také časování sepnutého re
 Nesmí chybět vizuální signalizace správného zadání kódu, která bude realizována LED diodou.
 
 ------------------
+------------------
+------------------
 ## Popis hardwaru
 Kdybychom nebyly omezení pouze na vytváření kódu, použili bychom extérní klávesnici 4x3, dále desku Arty A7-35T a také extérní čtyři sedmisegmentové displeje.
 
