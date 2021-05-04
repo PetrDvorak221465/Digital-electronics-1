@@ -456,6 +456,18 @@ Design file (proces p_code_check)
     end process p_code_check;
 ```
 
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+
+
 Testbench file (Clk generation proces a stimulus proces)
 ```VHDL
    --Clock generation process--  
