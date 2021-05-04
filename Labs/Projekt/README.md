@@ -53,7 +53,7 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
  
 ### Schéma FSM
 ![Schéma FSM](Images/FSM_Schema.png)
-<img src="Images/FSM_Schema.png" width="800">
+<img src="Images/FSM_Schema.png" width="500">
 
 ### Schéma zapojení pinů
 ![Schéma zapojení pinů 7seg](Images/schema_7seg.png)
