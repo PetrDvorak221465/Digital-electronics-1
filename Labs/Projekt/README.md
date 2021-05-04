@@ -50,6 +50,18 @@ K vypracování našeho projektu jsme potřebovali tyto moduly: clock enable, co
 
 ### Schéma top modulu
 ![Schématop modulu](Images/top_module.jpeg)
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
 ### Schéma FSM
 <img src="Images/FSM_Schema.png" width="300">
 
