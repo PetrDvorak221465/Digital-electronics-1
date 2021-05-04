@@ -560,6 +560,13 @@ Simulace
 Ostatní z našich modulů byly již byly otestovány a odsimulovány a to ve čtvrtém cvičení (hex_7seg), v pátém cvičení (clock enable, count up/down) a pak v šestém cvičení (multiplexer).
 Odkazy na soubory s testovanými kódy jsou přiloženy v referencích.
 
+------------------
+------------------
+------------------
+------------------
+------------------
+------------------
+
 ## TOP modul s popisem, kódem a simulací
 
 ### door_lock_system (Top modul)
