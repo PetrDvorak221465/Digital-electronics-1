@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Projekt.srcs/sources_1/new/FSM_door_lock.vhd" \
+"../../../../Projekt.srcs/sources_1/new/btn_to_num.vhd" \
+"../../../../Projekt.srcs/sources_1/new/clock_enable.vhd" \
+"../../../../Projekt.srcs/sources_1/new/cnt_up_down.vhd" \
+"../../../../Projekt.srcs/sources_1/new/hex_7seg.vhd" \
+"../../../../Projekt.srcs/sources_1/new/mux.vhd" \
+"../../../../Projekt.srcs/sources_1/new/door_lock_system.vhd" \
+"../../../../Projekt.srcs/sim_1/new/tb_door_lock_system.vhd" \
+
+# Do not sort compile order
+nosort

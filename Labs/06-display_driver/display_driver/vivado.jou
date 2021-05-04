@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May  2 17:01:46 2021
+# Process ID: 4140
+# Current directory: C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/06-display_driver/display_driver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14800 C:\Users\Petr\Documents\Dvorak\Digital-electronics-1\Labs\06-display_driver\display_driver\display_driver.xpr
+# Log file: C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/06-display_driver/display_driver/vivado.log
+# Journal file: C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/06-display_driver/display_driver\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_driver_7seg_4digits.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_driver_7seg_4digits/uut_driver_7seg_4digits/bin_cnt0/s_cnt_local}} 
+relaunch_sim
+close_sim

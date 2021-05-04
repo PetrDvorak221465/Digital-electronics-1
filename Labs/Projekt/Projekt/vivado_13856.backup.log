@@ -1,0 +1,372 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May  2 20:27:32 2021
+# Process ID: 13856
+# Current directory: C:/Users/Petr/Downloads/Projekt/Projekt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8648 C:\Users\Petr\Downloads\Projekt\Projekt\Projekt.xpr
+# Log file: C:/Users/Petr/Downloads/Projekt/Projekt/vivado.log
+# Journal file: C:/Users/Petr/Downloads/Projekt/Projekt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1005.582 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_door_lock_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_door_lock_system_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sources_1/new/door_lock_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'door_lock_system'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_door_lock_system'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xelab -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.btn_to_num [btn_to_num_default]
+Compiling architecture behavioral of entity xil_defaultlib.dls [dls_default]
+Compiling architecture behavioral of entity xil_defaultlib.door_lock_system [door_lock_system_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_door_lock_system
+Built simulation snapshot tb_door_lock_system_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_door_lock_system_behav -key {Behavioral:sim_1:Functional:tb_door_lock_system} -tclbatch {tb_door_lock_system.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_door_lock_system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4200ns
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+Note: Stimulus process finished
+Time: 4 us  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_door_lock_system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4200ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1005.582 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/cnt_o}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/s_cnt_local}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/cnt_up_i}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/en_i}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_door_lock_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_door_lock_system_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xelab -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+Note: Stimulus process finished
+Time: 4 us  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1005.582 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_door_lock_system/s_reset}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/reset}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_door_lock_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_door_lock_system_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_door_lock_system'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xelab -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.btn_to_num [btn_to_num_default]
+Compiling architecture behavioral of entity xil_defaultlib.dls [dls_default]
+Compiling architecture behavioral of entity xil_defaultlib.door_lock_system [door_lock_system_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_door_lock_system
+Built simulation snapshot tb_door_lock_system_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+Note: Stimulus process finished
+Time: 4 us  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1005.582 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_door_lock_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_door_lock_system_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_door_lock_system'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xelab -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.btn_to_num [btn_to_num_default]
+Compiling architecture behavioral of entity xil_defaultlib.dls [dls_default]
+Compiling architecture behavioral of entity xil_defaultlib.door_lock_system [door_lock_system_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_door_lock_system
+Built simulation snapshot tb_door_lock_system_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+Note: Stimulus process finished
+Time: 4 us  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1005.582 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_door_lock_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_door_lock_system_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_door_lock_system'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xelab -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.btn_to_num [btn_to_num_default]
+Compiling architecture behavioral of entity xil_defaultlib.dls [dls_default]
+Compiling architecture behavioral of entity xil_defaultlib.door_lock_system [door_lock_system_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_door_lock_system
+Built simulation snapshot tb_door_lock_system_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+Note: Stimulus process finished
+Time: 4 us  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1005.582 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_door_lock_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_door_lock_system_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xelab -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_door_lock_system_behav -key {Behavioral:sim_1:Functional:tb_door_lock_system} -tclbatch {tb_door_lock_system.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_door_lock_system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 4200ns
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+Note: Stimulus process finished
+Time: 4 us  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_door_lock_system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 4200ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.582 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_present_state}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_next_state}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_door_lock_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_door_lock_system_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.sim/sim_1/behav/xsim'
+"xelab -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 512679e9974b495aae4ff25fc1d21734 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_door_lock_system_behav xil_defaultlib.tb_door_lock_system -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+Note: Stimulus process finished
+Time: 4 us  Iteration: 0  Process: /tb_door_lock_system/p_stimulus  File: C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1005.582 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  2 22:05:19 2021...

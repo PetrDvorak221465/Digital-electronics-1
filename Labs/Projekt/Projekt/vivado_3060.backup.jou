@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May  3 15:07:16 2021
+# Process ID: 3060
+# Current directory: C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/Projekt/Projekt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13612 C:\Users\Petr\Documents\Dvorak\Digital-electronics-1\Labs\Projekt\Projekt\Projekt.xpr
+# Log file: C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/Projekt/Projekt/vivado.log
+# Journal file: C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/Projekt/Projekt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Petr/Documents/Dvorak/Digital-electronics-1/Labs/Projekt/Projekt/Projekt.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_door_lock_system.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/cnt_i}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data0_i}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data0_i}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data1_i}} {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data2_i}} {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data3_i}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/hex_o}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/hex2seg/hex_i}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/hex2seg/seg_o}} 
+close_sim
+launch_simulation
+source tb_door_lock_system.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_present_state}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_next_state}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_digit}} 
+relaunch_sim
+close_sim

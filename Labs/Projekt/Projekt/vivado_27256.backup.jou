@@ -1,0 +1,200 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May  2 17:46:08 2021
+# Process ID: 27256
+# Current directory: C:/Users/docek/Downloads/Projekt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28076 C:\Users\docek\Downloads\Projekt\Projekt.xpr
+# Log file: C:/Users/docek/Downloads/Projekt/vivado.log
+# Journal file: C:/Users/docek/Downloads/Projekt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/docek/Downloads/Projekt/Projekt.xpr
+update_compile_order -fileset sources_1
+open_project C:/Users/docek/Documents/Docekal-Ondrej/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.xpr
+update_compile_order -fileset sources_1
+current_project Projekt
+current_project display_driver
+current_project Projekt
+current_project display_driver
+current_project Projekt
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/docek/Downloads/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd w ]
+add_files -fileset sim_1 C:/Users/docek/Downloads/Projekt/Projekt.srcs/sim_1/new/tb_door_lock_system.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_door_lock_system [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_door_lock_system.tcl
+set_property -name {xsim.simulate.runtime} -value {4200ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb_door_lock_system.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data0_i}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data1_i}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data2_i}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data3_i}} 
+relaunch_sim
+close_sim
+launch_simulation
+source tb_door_lock_system.tcl
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data0}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data1}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data2}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data3}} 
+relaunch_sim
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data0_o}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data1_o}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data2_o}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data3_o}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data0_i}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data1_i}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data2_i}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data3_i}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/btn_to_num/key_p_o}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_cnp}} 
+relaunch_sim
+close_sim
+launch_simulation
+source tb_door_lock_system.tcl
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_present_state}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_next_state}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data0_o}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data1_o}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data2_o}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data3_o}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/btn_to_num/key_p_o}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/cnp_i}} 
+current_wave_config {Untitled 4}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_cnp}} 
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_door_lock_system.tcl
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data0_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data1_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data2_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data3_i}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/btn_to_num/hex_o}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/btn_to_num/key_p_o}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/digit_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/cnp_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data0_o}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data1_o}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data2_o}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/data3_o}} 
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_present_state}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/dls/s_next_state}} 
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/s_clk}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data0}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data0}} {{/tb_door_lock_system/uut_door_lock_system/s_data1}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data0}} {{/tb_door_lock_system/uut_door_lock_system/s_data1}} {{/tb_door_lock_system/uut_door_lock_system/s_data2}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data0}} {{/tb_door_lock_system/uut_door_lock_system/s_data1}} {{/tb_door_lock_system/uut_door_lock_system/s_data2}} {{/tb_door_lock_system/uut_door_lock_system/s_data3}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data0}} {{/tb_door_lock_system/uut_door_lock_system/s_data1}} {{/tb_door_lock_system/uut_door_lock_system/s_data2}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/s_data3}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data0_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data1_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data2_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/data3_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/cnt_i}} 
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/dig_o}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/mux_4to1/hex_o}} 
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/clk}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/en_i}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/s_cnt_local}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/cnt_up_i}} 
+relaunch_sim
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/cnt_o}} 
+current_wave_config {Untitled 5}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/cnt_up_i}} 
+relaunch_sim
+relaunch_sim
+close_sim
+close_project

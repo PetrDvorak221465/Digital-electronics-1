@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May  2 20:18:40 2021
+# Process ID: 2096
+# Current directory: C:/Users/Petr/Downloads/Projekt/Projekt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15956 C:\Users\Petr\Downloads\Projekt\Projekt\Projekt.xpr
+# Log file: C:/Users/Petr/Downloads/Projekt/Projekt/vivado.log
+# Journal file: C:/Users/Petr/Downloads/Projekt/Projekt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Petr/Downloads/Projekt/Projekt/Projekt.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_door_lock_system.tcl
+close_sim
+launch_simulation
+source tb_door_lock_system.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/cnt_up_i}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/cnt_up_i}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/en_i}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/reset}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/s_cnt_local}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_door_lock_system/uut_door_lock_system/bin_cnt0/cnt_o}} 
+relaunch_sim
+close_sim
